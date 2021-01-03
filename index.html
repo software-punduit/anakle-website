@@ -12,54 +12,60 @@
     <link rel="stylesheet" href="./assets/stylesheet/styles.css" />
   </head>
   <body>
-    <section class="header">
-      <div class="image-logo">
-        <img src="assets/images/anakle-logo-nav.png">
-      </div>
 
-      <div class="nav-area">
-        <ul>
-          <li class="dropdown">
+<header>
+  <div class="top-area">
+    <div class="logo">
+        <img src="assets/images/anakle-logo-nav.png">
+    </div>
+
+    <div class="navigation">
+         <ul>
+          <li>
             <a href="#">Services</a>
-           <ul>
-             
-              <li><a href="#">Digital Marketing</a></li>
+           <ul class="dropdown">
+             <li ><a href="#">Digital Marketing</a></li>
               <li> <a href="#">UX Design + Technology</a></li>
               <li> <a href="#">ORM + Strategic Communication</a></li>
-              <li> <a href="#">Social Media</a></i>
+              <li> <a href="#">Social Media</a></li>
            </ul>
           </li> 
           
           <li>
             <a href="#">Footprints</a>
-           <ul>
-              <i><a herf="#">Clients</a></i>
+           <ul class="dropdown">
+            <li><a href="#">Client</a></li>
             </ul>
           </li>
 
           <li>
-            <a href="#"> Blog</a>
+            <a href="#">Blog</a>
           </li>
-          <li><a href="#">Our team</a>
-         <ul>
+          <li>
+            <a href="#">Our team</a>
+         <ul class="dropdown">
             <li><a href="#">Working At Ankle</a></li>
             <li><a href="#">Careers</a></li>
           </ul>
           </li>
 
           <li><a href="#">Contact</a></li>
-          <li><a href="#">Forward</a>
-          <ul>
-        
-              <li><a href=#>Internship Programme</a>
-          </ul>
-        </li>
+          <li>
+            <a href="#">Forward</a>
+           <ul class="dropdown">
+            <li><a href="#">Internship programme</a></li>
+            </ul>
+          </li>
         </ul>
-      </div>
-    </section>
+      
+      
+    </div>
+    </header>
+    
+   
 
-    <section class="banner">
-      <div class="splitted-banner">
+    <section class="hero-area">
+      <div class="hero-text">
         <h2>
           Make the best of your digital</br>
           media footprint.
@@ -308,56 +314,100 @@
         </div>
       </div>
       </div>
-      
-
     </section>
 
-    <section class="background-images">
+    
+      
+    <section class="gallery"> 
+      <div class="gallery-title">
       <h1>Footprints</h1>
         <p>Anakle has delivered projects and 
           campaigns for leading brands across Nigeria</p>
-    
-       <!-- <div class="cards">
-          <div>
-          <img src="assets/images/access1 (1).png">
-          <img src="assets/images/pz.png">
-          <img src="assets/images/british_council.png">
-          <img src="assets/images/cocacola.png">
+        </div> 
+        
+       <div class="gallery-item">
+        <div class="image-container">
+          <img src="./assets/images/access1 (1).png" alt="Portfolio 1" />
         </div>
 
-        <div class="card">
-          <img src="assets/images/etisalat.png">
-          <img src="assets/images/first_bank.png">
-          <img src="assets/images/p_g.png">
-          <img src="assets/images/uba.png">
+        <div class="gallery-item">
+          <div class="image-container">
+          <img src="./assets/images/pz.png" alt="Portfolio 2" />
          </div>
 
-        <div class="card">
-          <img src="assets/images/adidas-2.png">
-          <img src="assets/images/gtb.png">
-          <img src="assets/images/unilever.png">
-          <img src="assets/images/view_more-copy1.png">
+         <div class="gallery-item">
+          <div class="image-container">
+          <img src="./assets/images/british_council.png" alt="Portfolio 3" />
         </div>
-      </div>-->
-    </section>
+
+         <div class="gallery-item">
+          <div class="image-container">
+          <img src="./assets/images/cocacola.png" alt="Portfolio 4" />
+        </div> 
+
+        <div class="gallery-item">
+          <div class="image-container">
+          <img src="./assets/images/etisalat.png" alt="Portfolio 5" />
+        </div>
+
+         <div class="gallery-item">
+          <div class="image-container">
+         <img src="./assets/images/first_bank.png" alt="Portfolio 6" />
+        </div>
+
+        <div class="gallery-item">
+          <div class="image-container">
+          <img src="./assets/images/p_g.png" alt="Portfolio 7" />
+        </div>
+
+         <div class="gallery-item">
+          <div class="image-container">
+           <img src="./assets/images/uba.png" alt="Portfolio 8" />
+         </div>
+            
+        <div class="gallery-item">
+          <div class="image-container">
+           <img src="./assets/images/adidas-2.png" alt="Portfolio 9" />
+        </div>
+
+         <div class="gallery-item">
+          <div class="image-container">
+          <img src="./assets/images/gtb.png" alt="Portfolio 10" />
+         </div>
+
+          <div class="gallery-item">
+          <div class="image-container">
+          <img src="./assets/images/unilever.png" alt="Portfolio 11" />
+          </div>
+
+           <div class="gallery-item">
+            <div class="image-container">
+          <img src="./assets/images/view_more-copy1.png" alt="Portfolio 12" />
+         </div>
+         </section>
 
     <footer>
       <div class="top">
       <h1>How can we help you?</h1>
       </div>
+     
       <div class="bottom">
         <div class="text-logo">
-          <span><h2>ANAKLE</h2><img src="assets/images/google_partner.png">
-        </span>
+          <h2>ANAKLE</h2>
+          <div>
+            <img src="assets/images/google_partner.png">
+          </div>
         </div>
        
         <div class="text-logo">
+          <p> <i class="material-icons">location_on</i>
+              The Ford Centre, Plot 2, Block 94,<br>
+               Providence
+              Street, Lekki Phase 1, <br>
+              Eti-Osa, Lekki.
+          </p>
           <p>
-              <i class="material-icons">location_on</i>
-              The Ford Centre, Plot 2, Block 94, Providence
-              Street, Lekki Phase 1, Eti-Osa, 
-              Lekki.
-              <a href="#"> Find Us</a>
+              <a href="#"> Find Us</a><br>
               <span><i class="material-icons">mail_outline</i></span>
               <a href="#">info@anakle.com</a>
           </p>
@@ -365,9 +415,9 @@
 
           <div class="text-logo">
             <h1>Services</h1>
-             <p> Digital Marketing
-                UX Design + Technology
-                ORM + Strategic Communications
+             <p> Digital Marketing<br>
+                UX Design + Technology<br>
+                ORM + Strategic Communications<br>
                 Social Media
               </p>
           </div>
@@ -379,10 +429,19 @@
       </div>
 
       <div class="footer-image">
+        <div class="footer-gallery">
         <img src="assets/images/cnn1.png">
         <img src="assets/images/jazeera1.png">
         <img src="assets/images/reuters1.png">
         <img src="assets/images/cnbc1.png">
+      </div>
+
+      <div class="footer-gallery">
+         <img class="logo1" src="assets/images/Facebook-Icon.svg">
+        <img class="logo2" src="assets/images/Twitter-Logo.svg">
+        <img class="logo3" src="assets/images/Instagram-Logo.svg">
+       </div>
+
       </div>
     </footer>
   </body>
